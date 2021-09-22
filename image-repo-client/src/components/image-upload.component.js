@@ -91,9 +91,9 @@ export default class UploadImages extends Component {
       <div>
         <div className="row">
           <div className="col-8">
-            <label className="btn btn-default p-0">
-              <input type="file" multiple accept="image/*" onChange={this.selectFiles} />
-            </label>
+              <label className="btn btn-default p-0">
+                <input id="file-uploader" type="file" multiple accept="image/*" onChange={this.selectFiles} />
+              </label>
           </div>
 
           <div className="col-4">
@@ -126,8 +126,8 @@ export default class UploadImages extends Component {
         )}
 
         <div className="card mt-3">
-          <div className="card-header">List of Files</div>
-          <ul className="list-group list-group-flush">
+          <div className="card-header">List of Images</div>
+          <ul aria-labelledby="images-heading" className="list-group list-group-flush">
             {imageInfos &&
               imageInfos.map((img, index) => (
                 <li className="list-group-item" key={index}>

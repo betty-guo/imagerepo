@@ -21,7 +21,7 @@ This starts the server on localhost:8080
 
 3. Then start the client:
 ```bash
-$ cd ../client # assuming you're currently in the server folder
+$ cd ../image-repo-client
 $ npm install
 $ npm start
 ```
@@ -34,6 +34,6 @@ Start the application by following the above steps.
 Then going into the client folder and run npm run test.
 
 ```bash
-$ cd client
+$ cd image-repo-client
 $ npm run test
 ```
