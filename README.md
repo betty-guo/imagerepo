@@ -1,9 +1,5 @@
 # Shopify Technical Challenge
 
-This is my submission for the Shopify Technical Challenge.
-
-# Description
-
 The image repo supports adding images (one by one or in bulk). There is a 2 mb size limit for uploading images. 
 
 The frontend was built with React and the backend was built with Nodejs and REST APIs. 
