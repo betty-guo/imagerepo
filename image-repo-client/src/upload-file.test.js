@@ -1,4 +1,4 @@
-import {render, screen, within} from '@testing-library/react'
+import {render} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import * as React from 'react'
 
@@ -13,5 +13,4 @@ test('Show the uploaded file name after the user uploads a file', () => {
   })
 
   userEvent.upload(uploadButton, file)
-  const list = screen.getByRole("list")
 })
