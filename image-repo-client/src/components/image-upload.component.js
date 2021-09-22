@@ -127,7 +127,7 @@ export default class UploadImages extends Component {
 
         <div className="card mt-3">
           <div className="card-header">List of Images</div>
-          <ul aria-labelledby="images-heading" className="list-group list-group-flush">
+          <ul className="list-group list-group-flush">
             {imageInfos &&
               imageInfos.map((img, index) => (
                 <li className="list-group-item" key={index}>
